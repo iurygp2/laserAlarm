@@ -1,0 +1,41 @@
+const int amarelo = 11; 
+const int red = 9; 
+const int green = 8; 
+botão const int = 7; 
+transistor const int = 5; 
+int estado = 0; // No início, o sistema está desligado.
+int val = 0; // Armazena o valor do estado entre um ciclo e outro
+int luz;
+void setup () {
+pinMode (verde, OUTPUT); // Inicialize a saída dos pinos verdes.
+ pinMode (vermelho, OUTPUT); // Inicializa a saída do pino vermelho.
+ pinMode (botão, INPUT); // Inicializa a saída do pino do botão
+ pinMode (transistor, OUTPUT); 
+ pinMode (A0, ENTRADA);
+}
+ 
+ void loop () { 
+ val = digitalRead (botão); // Eu li o status do sinal (se clicado ou não)
+ delay (10); 
+ 
+ if (val == HIGH); 
+ } 
+ 
+ if (state == HIGH) {// Se eu apertei o botão eu ligo o sistema 
+ digitalWrite (vermelho, LOW); 
+ digitalWrite (verde, HIGH); 
+ digitalWrite (transistor, 1); 
+ luz = analogRead (A0); 
+ if (luz <100) { 
+ tone (3, 440); 
+ }
+ 
+ } 
+ 
+ else {// Se eu não apertei o botão eu ligo o vermelho vermelho 
+ noTone (3); 
+ digitalWrite (verde, LOW); 
+ digitalWrite (vermelho, HIGH); 
+ digitalWrite (transistor, 0); 
+ } 
+}
