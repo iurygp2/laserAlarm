@@ -14,3 +14,4 @@ os botões vermelho e verde indicam se o sistema esta desligado ou ligado respec
 feito para ser instalado em passagens como portas ou janelas, acionado durante a noite de preferencia para um funcionamento mais eficaz.
 # creditos 
 Raffaele Farinaro; Iury Gonçalves 
+<img width="878" alt="projeto" src="https://user-images.githubusercontent.com/53453644/62827727-6c29ef00-bbab-11e9-8d6b-329836acf8ba.png">
